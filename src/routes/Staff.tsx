@@ -1,5 +1,23 @@
 import React from 'react';
 
+import DamienVesper from '../assets/img/staff/damienvesper.gif';
+import Alpaps from '../assets/img/staff/alpaps.png';
+import WarToWin from '../assets/img/staff/wartowin.png';
+
+import Zeropoint from '../assets/img/staff/zeropoint.png';
+import TheRandomGuy from '../assets/img/staff/therandomguy98.png';
+import Coelus from '../assets/img/staff/coelusceer.png';
+
+import Tokiwa from '../assets/img/staff/tokiwa.png';
+import UranousRaptor from '../assets/img/staff/uranousraptor75.png';
+
+import NeonWolf from '../assets/img/staff/neonwolf.png';
+import ReddevilG from '../assets/img/staff/reddevilG.png';
+
+import YaLocalFurryGuy from '../assets/img/staff/yalocalfurryguy.png';
+import Lapis from '../assets/img/staff/lapis.png';
+import Collinnn from '../assets/img/staff/collinnn.png';
+
 const Staff = () => {
     return (
         <div className="pt-12">
@@ -12,7 +30,7 @@ const Staff = () => {
                     <div className="flex flex-wrap -m-2">
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357982834753597/damienvesper.gif" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={DamienVesper} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Damien Vesper</h2>
                                     <p className="text-gray-600 text-indigo-400">Head Admin</p>
@@ -21,7 +39,7 @@ const Staff = () => {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357977509167166/alpaps.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Alpaps} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Alpaps</h2>
                                     <p className="text-gray-600 text-indigo-400">Head Admin</p>
@@ -30,7 +48,7 @@ const Staff = () => {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849358355494338620/wartowin.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={WarToWin} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">War To Win</h2>
                                     <p className="text-gray-600 text-indigo-400">Head Admin</p>
@@ -40,7 +58,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849358031157854238/zeropoint.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Zeropoint} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Zeropoint</h2>
                                     <p className="text-red-400">Administrator</p>
@@ -49,7 +67,7 @@ const Staff = () => {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357978527596554/coelusceer.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Coelus} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Coleus</h2>
                                     <p className="text-red-400">Administrator</p>
@@ -58,7 +76,7 @@ const Staff = () => {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357987486760990/therandomguy98.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={TheRandomGuy} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">TheRandomGuy</h2>
                                     <p className="text-red-400">Administrator</p>
@@ -78,7 +96,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357988989108224/tokiwa.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Tokiwa} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Tokiwa</h2>
                                     <p className="text-pink-600">Senior Moderator</p>
@@ -87,7 +105,7 @@ const Staff = () => {
                         </div>
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357991089143818/uranousraptor75.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={UranousRaptor} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">UranousRaptor</h2>
                                     <p className="text-pink-600">Senior Moderator</p>
@@ -97,7 +115,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357984646692925/neonwolf.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={NeonWolf} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">NeonWolf</h2>
                                     <p className="text-purple-300">Moderator</p>
@@ -107,7 +125,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357985826472007/reddevilG.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={ReddevilG} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">ReddevilG</h2>
                                     <p className="text-purple-300">Moderator</p>
@@ -117,7 +135,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849358914889318430/collinnn.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Collinnn} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Collinnn</h2>
                                     <p className="text-blue-300">Helper</p>
@@ -127,7 +145,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849357982939611157/lapis.png" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Lapis} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Lapis</h2>
                                     <p className="text-blue-300">Helper</p>
@@ -137,7 +155,7 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849358022844481566/yalocalfurryguy.gif" />
+                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={YaLocalFurryGuy} />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">YourLocalFurryGuy</h2>
                                     <p className="text-blue-300">Helper</p>
