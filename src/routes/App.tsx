@@ -36,7 +36,7 @@ const App = () => {
 
                         <div className="">
                             <div className="border-2 text-center border-blue-600 rounded-lg px-3 py-2 text-blue-400 cursor-pointer hover:bg-blue-600 hover:text-blue-200">
-                                GMod
+                                Garry's Mod
                             </div>
                         </div>
 

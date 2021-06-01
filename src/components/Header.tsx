@@ -14,9 +14,8 @@ const Header = () => {
                 </span>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <Link className="mr-5 hover:text-white" to="/staff">Staff</Link>
-                    <Link className="mr-5 hover:text-white" to="/staff">Minecraft</Link>
-                    <Link className="mr-5 hover:text-white" to="/staff">GMod</Link>
-                    <Link className="mr-5 hover:text-white" to="/staff">Cod4X</Link>
+                    <Link className="mr-5 hover:text-white" to="https://panel.alru.ga">Panel</Link>
+                    <Link className="mr-5 hover:text-white" to="https://discord.alru.ga">Discord</Link>
                 </nav>
             </div>
         </header>

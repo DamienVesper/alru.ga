@@ -15,6 +15,8 @@ import {
     Route
 } from "react-router-dom";
 
+import Page404 from './routes/errors/404';
+
 ReactDOM.render(
     <React.StrictMode>
         <Router>
@@ -22,11 +24,21 @@ ReactDOM.render(
                 <Header />
 
                 <Switch>
-                    <Route path="/staff">
+                    <Route exact path="/">
+                        <App />
+                    </Route>
+                    <Route exact path="/staff">
                         <Staff />
                     </Route>
+
+                    {/* Redirects */}
+                    <Route exact path="/discord">
+
+                    </Route>
+
+                    {/* Error Pages */}
                     <Route path="/">
-                        <App />
+                        <Page404 />
                     </Route>
                 </Switch>
             </div>
