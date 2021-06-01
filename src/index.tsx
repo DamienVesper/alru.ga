@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import App from './routes/App';
+import Staff from './routes/Staff'
+
 import reportWebVitals from './reportWebVitals';
 import './index.css'
 import {
@@ -17,20 +20,20 @@ ReactDOM.render(
       <header className="text-gray-400 bg-gray-900 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-            </svg>
-            <span className="ml-3 text-xl">Alru Gaming Community</span>
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+            <a href="/">
+              <span className="ml-3 text-xl text-indigo-300">Alliance Reunited Community</span>
+            </a>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <Link className="mr-5 hover:text-white" to="/about">About</Link>
+            <Link className="mr-5 hover:text-white pr-12" to="/staff">Hall of Staff</Link>
+            <Link className="mr-5 hover:text-white" to="/staff">Minecraft</Link>
+            <Link className="mr-5 hover:text-white" to="/staff">GMod</Link>
+            <Link className="mr-5 hover:text-white" to="/staff">Cod4X</Link>
 
           </nav>
-          <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </button>
         </div>
       </header>
 
@@ -39,11 +42,12 @@ ReactDOM.render(
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/">
-            <div className="text-white">
+            <Route path="/staff">
+              <Staff />
+            </Route>
+            <Route path="/">
               <App />
-            </div>
-          </Route>
+            </Route>
         </Switch>
       </div>
     </Router>
