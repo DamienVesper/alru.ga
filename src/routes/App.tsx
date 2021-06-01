@@ -12,7 +12,7 @@ function App() {
       <br></br>
       <div className="flex">
         <div className="ml-12 w-1/4 mr-24">
-          <iframe src="https://discord.com/widget?id=757079346719621150&theme=dark" width="100%" height={500} frameBorder={0} sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+          <iframe src="https://discord.com/widget?id=757079346719621150&theme=dark" title="Discord" width="100%" height={500} frameBorder={0} sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
 
         </div>
         <div className="flex-auto">
