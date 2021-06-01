@@ -7,7 +7,7 @@ import Staff from './routes/Staff';
 import Header from './components/Header';
 
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './assets/css/index.css';
 
 import {
     BrowserRouter as Router,

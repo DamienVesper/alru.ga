@@ -119,7 +119,7 @@ const Staff = () => {
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://cdn.discordapp.com/attachments/840833004498059284/849358914889318430/collinnn.png" />
                                 <div className="flex-grow">
-                                    <h2 className="text-white title-font font-medium">Colinnn</h2>
+                                    <h2 className="text-white title-font font-medium">Collinnn</h2>
                                     <p className="text-blue-300">Helper</p>
                                 </div>
                             </div>
