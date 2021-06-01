@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Staff() {
+const Staff = () => {
   return (
     <div className="pt-12">
       <section className="text-gray-400 bg-gray-900 body-font">
@@ -50,7 +50,7 @@ function Staff() {
                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90" />
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">Zeropoint</h2>
-                  <p className="text-red-400">Administrators</p>
+                  <p className="text-red-400">Administrator</p>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ function Staff() {
                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94" />
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">Coleus</h2>
-                  <p className="text-red-400">Administrators</p>
+                  <p className="text-red-400">Administrator</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ function Staff() {
                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98" />
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">TheRandomGuy</h2>
-                  <p className="text-red-400">Administrators</p>
+                  <p className="text-red-400">Administrator</p>
                 </div>
               </div>
             </div>
@@ -162,6 +162,6 @@ function Staff() {
       </section>
     </div>
   );
-}
+};
 
 export default Staff;

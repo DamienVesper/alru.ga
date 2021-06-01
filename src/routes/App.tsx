@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function App() {
+const App = () => {
   return (
     <div className="pt-12">
       <h1 className="text-4xl text-indigo-300 text-center">Welcome to Aliance Reunited</h1>
@@ -51,6 +51,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
