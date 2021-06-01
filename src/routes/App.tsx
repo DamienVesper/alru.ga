@@ -28,23 +28,9 @@ const App = () => {
                     <br></br>
                     <br></br>
                     <div className="grid grid-cols-3 gap-4 ml-48 mr-64">
-                        <div className="">
-                            <div className="border-2  text-center border-green-600 rounded-lg px-3 py-2 text-green-400 cursor-pointer hover:bg-green-600 hover:text-green-200">
-                                Minecraft
-                            </div>
-                        </div>
-
-                        <div className="">
-                            <div className="border-2 text-center border-blue-600 rounded-lg px-3 py-2 text-blue-400 cursor-pointer hover:bg-blue-600 hover:text-blue-200">
-                                Garry's Mod
-                            </div>
-                        </div>
-
-                        <div className="">
-                            <div className="border-2 text-center border-red-600 rounded-lg px-3 py-2 text-red-400 cursor-pointer hover:bg-red-600 hover:text-red-200">
-                                COD4X
-                            </div>
-                        </div>
+                        <div className="border-2 text-center border-green-600 rounded-lg px-3 py-2 text-green-400 cursor-pointer hover:bg-green-600 hover:text-green-200">Minecraft</div>
+                        <div className="border-2 text-center border-blue-600 rounded-lg px-3 py-2 text-blue-400 cursor-pointer hover:bg-blue-600 hover:text-blue-200">Garry's Mod</div>
+                        <div className="border-2 text-center border-red-600 rounded-lg px-3 py-2 text-red-400 cursor-pointer hover:bg-red-600 hover:text-red-200">COD4X</div>
                     </div>
                 </div>
             </div>
