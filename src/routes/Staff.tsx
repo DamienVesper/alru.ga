@@ -14,7 +14,7 @@ import UranousRaptor from '../assets/img/staff/uranousraptor75.png';
 import NeonWolf from '../assets/img/staff/neonwolf.png';
 import ReddevilG from '../assets/img/staff/reddevilG.png';
 
-import YaLocalFurryGuy from '../assets/img/staff/yalocalfurryguy.png';
+import YaLocalFurryGuy from '../assets/img/staff/yalocalfurryguy.gif';
 import Lapis from '../assets/img/staff/lapis.png';
 import Collinnn from '../assets/img/staff/collinnn.png';
 
