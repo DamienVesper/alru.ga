@@ -18,8 +18,8 @@ const App = () => {
                     <div style={{ width: `60rem` }}>
                         <h1 className="text-3xl text-white">Who are we?</h1>
                         <p className="mt-4 ml-4 text-white">
-                Reuniting friends, family, and forgotten organizations, we are a community bringing together these scattered groups as one.
-                We've also been hosting servers for various different games since November 15, 2020, for the community, and more. Join our Discord to be part of our amazing community today!
+                            Reuniting friends, family, and forgotten organizations, we are a community bringing together these scattered groups as one.
+                            We've also been hosting servers for various different games since November 15, 2020, for the community, and more. Join our Discord to be part of our amazing community today!
                         </p>
                     </div>
                     <br></br>
