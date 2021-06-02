@@ -122,7 +122,6 @@ const Staff = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={ReddevilG} alt="ReddevilG's profile picture" />
@@ -135,14 +134,13 @@ const Staff = () => {
 
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Collinnn} alt="Collinnn's profile picture" />
+                                <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={YaLocalFurryGuy} alt="YaLocalFurryGuy's profile picture" />
                                 <div className="flex-grow">
-                                    <h2 className="text-white title-font font-medium">Collinnn</h2>
+                                    <h2 className="text-white title-font font-medium">YourLocalFurryGuy</h2>
                                     <p className="text-blue-300">Helper</p>
                                 </div>
                             </div>
                         </div>
-
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Lapis} alt="Collinnn's profile picture" />
@@ -152,12 +150,11 @@ const Staff = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                             <div className="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                                <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={YaLocalFurryGuy} alt="YaLocalFurryGuy's profile picture" />
+                                <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Collinnn} alt="Collinnn's profile picture" />
                                 <div className="flex-grow">
-                                    <h2 className="text-white title-font font-medium">YourLocalFurryGuy</h2>
+                                    <h2 className="text-white title-font font-medium">Collinnn</h2>
                                     <p className="text-blue-300">Helper</p>
                                 </div>
                             </div>
