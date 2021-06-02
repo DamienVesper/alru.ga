@@ -33,7 +33,7 @@ const Staff = () => {
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={DamienVesper} alt="DamienVesper's logo" />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Damien Vesper</h2>
-                                    <p className="text-gray-600 text-indigo-400">Head Admin</p>
+                                    <p className="text-indigo-400">Head Admin, Sysadmin, DevOps</p>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ const Staff = () => {
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={Alpaps} alt="Alpaps' profile picture" />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Alpaps</h2>
-                                    <p className="text-gray-600 text-indigo-400">Head Admin</p>
+                                    <p className="text-indigo-400">Head Admin</p>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Staff = () => {
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={WarToWin} alt="WarToWin's profile picture" />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">War To Win</h2>
-                                    <p className="text-gray-600 text-indigo-400">Head Admin</p>
+                                    <p className="text-indigo-400">Head Admin</p>
                                 </div>
                             </div>
                         </div>
