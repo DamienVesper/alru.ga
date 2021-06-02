@@ -22,10 +22,10 @@ const Staff = () => {
     return (
         <div className="pt-12">
             <section className="text-gray-400 bg-gray-900 body-font">
-                <div className="container px-5 py-24 mx-auto">
-                    <div className="flex flex-col text-center w-full mb-20">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Our Team</h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">The staff members keeping this whole operation running 24/7/365. Without the help from these amazing people we would not be able to do what we have done!</p>
+                <div className="container mx-5 mb-24 mx-auto">
+                    <div className="flex flex-col text-center w-full mb-10">
+                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Our Staff</h1>
+                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">The staff members keeping this whole operation running behind the scenes. Without the help from these amazing people, we would not be able to get to where we are today!</p>
                     </div>
                     <div className="flex flex-wrap -m-2">
                         <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
