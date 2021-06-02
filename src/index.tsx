@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './routes/App';
+import Servers from './routes/Servers';
 import Staff from './routes/Staff';
 
 import Header from './components/Header';
+import Page404 from './routes/errors/404';
 
 import reportWebVitals from './reportWebVitals';
 import './assets/css/index.css';
@@ -14,8 +16,6 @@ import {
     Switch,
     Route
 } from "react-router-dom";
-
-import Page404 from './routes/errors/404';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -27,6 +27,11 @@ ReactDOM.render(
                     <Route exact path="/">
                         <App />
                     </Route>
+
+                    <Route exact path="/servers">
+                        <Servers />
+                    </Route>
+
                     <Route exact path="/staff">
                         <Staff />
                     </Route>
