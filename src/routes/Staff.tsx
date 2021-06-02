@@ -33,7 +33,7 @@ const Staff = () => {
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={DamienVesper} alt="DamienVesper's logo" />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">Damien Vesper</h2>
-                                    <p className="text-indigo-400">Head Admin, Sysadmin, DevOps</p>
+                                    <p className="text-indigo-400">Head Admin, Systems Administrator, DevOps</p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const Staff = () => {
                                 <img className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="http://www.gravatar.com/avatar/778caf96c7ab92e7202f0b3545d76061?s=1024" alt="TheLonelySysAdmin's profile picture" />
                                 <div className="flex-grow">
                                     <h2 className="text-white title-font font-medium">TheLonelySysAdmin</h2>
-                                    <p className="text-blue-600">Systems Administrator</p>
+                                    <p className="text-blue-600">Full-stack Engineer</p>
                                 </div>
                             </div>
                         </div>
